@@ -14,7 +14,7 @@ caozha-ip，是基于原生PHP写的一套完整的IP地址查询模块，支持
 
 1、网上下载最新版的纯真IP数据库，安装后打开软件，点击“解压”，得到文件：qqwry.txt，放在目录convert/里。
 
-2、修改convert/convert.php里的数据库配置，并运行此PHP程序，执行对应的操作。
+2、修改convert/convert.php里的数据库配置，并运行此PHP程序，执行对应的操作，即可完成IP数据的更新。
 
 ### 赞助支持：
 

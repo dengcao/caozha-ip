@@ -7,8 +7,8 @@
 ☆  开 发：草札(www.caozha.com)                                                                   ☆
 ☆  鸣 谢：穷店(www.qiongdian.com) 品络(www.pinluo.com)                                            ☆
 ☆  Git仓库: https://gitee.com/caozha/caozha-ip                                                  ☆
-☆  读取和处理qqwry.dat的代码，原作者是：joyphper                                                    ☆
-☆  声明：这个类读取与处理qqwry.dat的代码是根据joyphper的“IP地理位置查询类1.0”修改，原代码版权归原作者所有    ☆
+☆  声明：读取和处理qqwry.dat的代码，原作者是：joyphper。比较懒，直接用它了。^_^                          ☆
+☆  这个类读取与处理qqwry.dat的代码是根据joyphper的“IP地理位置查询类1.0”修改，原代码版权归原作者所有。       ☆
 ☆                                                                                               ☆
 ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 */

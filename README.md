@@ -4,7 +4,7 @@ caozha-ip，是基于原生PHP写的一套完整的IP转地址模块，支持自
 
 ### 使用方法
 
-MYSQL版本：
+ **MYSQL版本：** 
 
 1、将src/caozha_ip.sql.zip导入到MYSQL数据库。
 
@@ -13,7 +13,7 @@ MYSQL版本：
 3、参考实例：examples/ （内含多种调用方式）
 
 
-NoSQL版本（无需数据库）：
+ **NoSQL版本（无需数据库）：** 
 
 1、引入src-NoSQL/caozha_ip.class.php
 
@@ -22,9 +22,17 @@ NoSQL版本（无需数据库）：
 
 ### IP数据更新方法
 
+ **MYSQL版本：** 
+
 1、网上下载最新版的纯真IP数据库，安装后打开软件，点击“解压”，得到文件：qqwry.txt，放在目录convert/里。
 
 2、修改convert/convert.php里的数据库配置，并运行此PHP程序，执行对应的操作，即可完成IP数据的更新。
+
+
+ **NoSQL版本（无需数据库）：** 
+ 
+网上下载最新版的纯真IP数据库，安装后打开软件的安装目录，找到qqwry.dat，放在目录src-NoSQL/里覆盖旧数据文件即可。
+
 
 ### 赞助支持：
 

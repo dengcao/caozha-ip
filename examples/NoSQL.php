@@ -30,6 +30,11 @@ jsonp：<br>
 <?php
 	echo htmlspecialchars($caozha->ip_to_address("jsonp",$ip));
 ?>
+<br><br>
+js：<br>
+<?php
+	echo htmlspecialchars($caozha->ip_to_address("js",$ip));
+?>
 </pre>
 </body>
 </html>

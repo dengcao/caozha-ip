@@ -31,7 +31,7 @@ class caozha_ip {
 	方法：IP转地址
 	参数：
 	$ip 要查询的IP地址，为空时自动获取本机IP
-	$format 输出格式，可选值：js、json、jsonp、txt、xml
+	$format 输出格式，可选值：js、json、jsonp、text、xml
 	$callback 回调函数名，当$format=jsonp时设置
 	*/
 	function ip_to_address( $format = "json", $ip = "", $callback = "" ) {
@@ -73,7 +73,7 @@ class caozha_ip {
 			case "jsonp":
 				return $callback . "(" . json_encode( $list ) . ");";
 				break;
-			case "txt":
+			case "text":
 				return implode( "|", $list );
 				//return "ip:" . $list[ "ip" ] . ",ip_start:" . $list[ "ip_start" ] . ",ip_end:" . $list[ "ip_end" ] . ",address:" . $list[ "address" ] . ",location:" . $list[ "location" ] . ",country:" . $list[ "country" ] . ",province:" . $list[ "province" ] . ",city:" . $list[ "city" ] . ",area:" . $list[ "area" ];
 				break;
